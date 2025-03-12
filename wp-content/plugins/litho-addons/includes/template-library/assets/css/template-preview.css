@@ -1,0 +1,7 @@
+.elementor-add-new-section .elementor-add-litho-button {
+	background-color: transparent;
+	background-image: linear-gradient(90deg, #5D70F3 0%, #FF798E 100%);
+	position: relative;
+	margin-left: 5px;
+	color: #FFFFFF;
+}

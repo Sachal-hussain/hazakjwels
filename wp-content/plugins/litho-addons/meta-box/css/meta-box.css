@@ -1,0 +1,558 @@
+.show_div {
+    display: block !important;
+}
+
+.hide_div {
+    display: none !important;
+}
+
+.edit-post-meta-boxes-area .postbox .right-part input[type="text"] {
+    width: 320px;
+}
+
+.alpha-color-picker-wrap .wp-picker-container input[type=text].wp-color-picker {
+    width: 95px;
+}
+
+.litho_meta_box_tabs {
+    background: none repeat scroll 0 0 #f5f5f5;
+    box-sizing: border-box;
+    float: left;
+    margin: 0;
+    padding: 0;
+    width: 202px;
+}
+
+.litho_meta_box_tabs li {
+    margin: 0;
+}
+
+.litho_meta_box_tabs li a {
+    display: block;
+    padding: 10px 4px 10px 14px;
+    background: #e0e0e0;
+    background: transparent;
+    outline: none;
+    border-width: 1px 0;
+    border-style: solid;
+    border-bottom-color: #E7E7E7;
+    border-top-color: #F9F9F9;
+    opacity: 0.7;
+    color: #555;
+    font-weight: bold;
+    text-decoration: none;
+    -webkit-transition: none;
+    transition: none
+}
+
+.litho_meta_box_tabs li a:hover {
+    background: #e5e5e5 none repeat scroll 0 0;
+    color: #777;
+    opacity: 1;
+    border-top: 1px solid #e7e7e7;
+}
+
+.litho_meta_box_tabs li.active a {
+    color: #222;
+    background-color: #fcfcfc;
+    opacity: 1;
+}
+
+.litho_meta_box_tabs li a:focus {
+    box-shadow: none;
+    outline: none;
+}
+
+.litho_meta_box_tabs li a i {
+    font-size: 1.35em;
+    position: absolute;
+    vertical-align: middle;
+}
+
+.litho_meta_box_tabs li a .group_title {
+    display: block;
+    padding-left: 30px;
+}
+
+.litho_meta_box_tab_content {
+    background: #fcfcfc none repeat scroll 0 0;
+    display: flex;
+    border-left: 1px solid #d8d8d8;
+    box-shadow: 0 1px 0 #fff inset;
+    padding: 10px 20px 30px;
+    position: relative;
+    min-height: 300px;
+}
+
+#litho_admin_options .inside {
+    padding: 0;
+    margin: 0;
+    background-color: #f5f5f5;
+    background-repeat: repeat-x;
+    background-image: -moz-linear-gradient(top, #f2f2f2 0%, #f5f5f5 100%);
+    background-image: -webkit-gradient(linear, left top, left bottom, color-stop(0%, #f2f2f2), color-stop(100%, #f5f5f5));
+    background-image: -webkit-linear-gradient(top, #f2f2f2 0%, #f5f5f5 100%);
+    background-image: -ms-linear-gradient(top, #f2f2f2 0%, #f5f5f5 100%);
+    background-image: -o-linear-gradient(top, #f2f2f2 0%, #f5f5f5 100%);
+    filter: progid: DXImageTransform.Microsoft.gradient(startColorstr='#f5f5f5', endColorstr='#eeeeee', GradientType=0);
+    background-image: linear-gradient(top, #f2f2f2 0%, #f5f5f5 100%);
+    overflow: hidden
+}
+
+.litho_meta_box_tab {
+    display: none;
+    width: 100%;
+}
+
+.hide-children {
+    display: none;
+}
+
+.show-children {
+    display: block;
+}
+
+.litho_meta_box_tab_content .active {
+    display: block !important;
+}
+
+.litho_meta_box_tab_content h3 {
+    border-bottom: 1px solid #e7e7e7 !important;
+    line-height: 2em !important;
+    margin: 0 0 20px 0 !important;
+    color: #23282d !important;
+    font-size: 1.3em !important;
+    display: block;
+    font-weight: 600;
+    padding: 0 !important;
+}
+
+.litho_meta_box_tab_content p {
+    display: block;
+    font-weight: bold;
+    padding: 20px 10px 20px 0;
+    box-sizing: border-box;
+    float: left;
+    width: 30%;
+}
+
+.main_tab_title {
+    margin-bottom: 20px;
+}
+
+.description_box {
+    width: 100%;
+    border-bottom: 1px solid #ececec;
+    float: left;
+}
+
+.left-part {
+    display: block;
+    font-weight: bold;
+    padding: 20px 10px 20px 0;
+    float: left;
+    width: 30%;
+    box-sizing: border-box;
+}
+
+.left-part .description {
+    font-weight: normal;
+    color: #666;
+    display: block;
+    font-style: normal;
+}
+
+.main_tab_title .description {
+    font-style: normal;
+}
+
+.right-part {
+    width: 70%;
+    padding: 20px 0 0;
+    float: left;
+}
+
+.right-part textarea {
+    width: 100%;
+    height: 100px;
+}
+
+.right-part select {
+    background: transparent url("../images/select-arrow.png") no-repeat scroll right 7px center;
+    width: 320px;
+    font-size: 12px;
+    cursor: pointer;
+    padding-right: 25px;
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    appearance: none;
+}
+
+.right-part select:-ms-expand {
+    display: none;
+}
+
+.litho_tab_reset_settings {
+    float: right;
+}
+
+/* For Meta accordian*/
+.separator_main_start_main_content_wrap {
+    float: left;
+    width: 100%;
+    clear: both;
+    display: table;
+}
+
+.separator_main_start_main_content_wrap>.separator_box>.meta-heading-separator>h3 {
+    cursor: pointer;
+    border-radius: 0;
+    border: 1px solid #ededed !important;
+    background-color: #fff;
+    margin: 0 0 10px !important;
+    font-size: 13px !important;
+    font-weight: 600 !important;
+    color: #232323 !important;
+    padding: 13px 60px 15px 25px !important;
+    position: relative;
+    line-height: normal !important;
+}
+
+.separator_main_start_main_content_wrap>.separator_box.active>.meta-heading-separator>h3 {
+    margin-bottom: 0px !important;
+}
+
+.separator_main_start_main_content_wrap>.litho_hamburger_menu_single_box.separator_box>.meta-heading-separator>h3 {
+    border-bottom: 0px !important;
+}
+
+.separator_main_start_main_content_wrap>.separator_box>.meta-heading-separator>h3::after {
+    top: 8px;
+    font-size: 19px;
+    position: absolute;
+    right: 15px;
+    line-height: normal;
+    content: "+";
+}
+
+.separator_main_start_main_content_wrap>.separator_box.active>.meta-heading-separator>h3:after {
+    content: "-"
+}
+
+.separator_main_start_main_content_wrap>.separator_start_content_wrap {
+    width: 100%;
+    opacity: 0;
+    visibility: hidden;
+    height: 0;
+    float: left;
+    background: #f1f1f1;
+    padding: 0px 30px;
+}
+
+.separator_main_start_main_content_wrap>.separator_box.active+.separator_start_content_wrap {
+    opacity: 1;
+    visibility: visible;
+    height: 100%;
+    width: 100%;
+    box-sizing: border-box;
+    position: relative;
+    margin: 0 0 10px !important;
+    z-index: 9;
+}
+
+.separator_main_start_main_content_wrap>.separator_start_content_wrap {
+    background-color: #fafafa
+}
+
+.separator_main_start_main_content_wrap .left-part {
+    font-weight: 500;
+}
+
+.separator_main_start_main_content_wrap .left-part span.description {
+    font-size: 12px;
+    line-height: normal;
+    margin-top: 2px;
+}
+
+.separator_box .meta-heading-separator h3 {
+    margin-top: 15px !important;
+}
+
+.separator_box {
+    float: left;
+    width: 100%;
+}
+
+.right-part {
+    padding: 13px 0 13px !important;
+}
+
+.right-part .short-description {
+    display: block;
+    margin: 10px 0 10px 0;
+}
+.litho_upload_button{
+    float: left;
+    clear: both;
+    border-radius: 3px;
+    border: 1px solid #ccc;
+    box-sizing: border-box;
+    cursor: pointer;
+    display: inline-block;
+    font-size: 13px;
+    height: 28px;
+    line-height: 26px;
+    margin: 0 10px 21px 0;
+    padding: 0 10px 1px;
+    text-decoration: none;
+    white-space: nowrap;
+    background: #f7f7f7 none repeat scroll 0 0;
+    box-shadow: 0 1px 0 #fff inset, 0 1px 0 rgba(0, 0, 0, 0.08);
+    color: #555;
+    vertical-align: top;
+}
+.upload_field,
+.litho_meta_box_tab_content input[type="text"] {
+    float: left;
+    font-size: 12px;
+    width: 320px;
+    margin-bottom: 10px;
+}
+
+.multiple_images .remove {
+    background-color: #f7f7f7;
+    border: 1px solid #ccc;
+    color: #ef521d !important;
+    border-radius: 3px;
+    box-sizing: border-box;
+    cursor: pointer;
+    display: inline-block;
+    font-size: 13px;
+    height: 28px;
+    line-height: 26px;
+    margin: 6px 0 0 0;
+    padding: 0 10px 1px;
+    text-decoration: none;
+    white-space: nowrap;
+}
+
+.litho_description_box .multiple_images>div {
+    box-sizing: border-box;
+    margin: 0 0 10px 0;
+    vertical-align: top;
+    padding: 0 5px;
+    width: 33.33%;
+}
+
+.multiple_images>div {
+    display: inline-block;
+    width: 100px;
+    margin: 0 30px 30px 0;
+    text-align: center;
+}
+
+.width-100px {
+    width: 100px;
+}
+
+.litho_description_box .multiple_images .remove {
+    font-size: 11px;
+    height: 20px;
+    line-height: 18px;
+    padding: 0 7px 1px;
+}
+
+.upload_image_screenshort,
+.upload_image_screenshort_view {
+    float: left;
+    clear: both;
+    margin-bottom: 10px;
+    width: 150px;
+}
+
+.litho_upload_button {
+    float: left;
+    clear: both;
+    border-radius: 3px;
+    border: 1px solid #ccc;
+    box-sizing: border-box;
+    cursor: pointer;
+    display: inline-block;
+    font-size: 13px;
+    height: 28px;
+    line-height: 26px;
+    margin: 0 10px 21px 0;
+    padding: 0 10px 1px;
+    text-decoration: none;
+    white-space: nowrap;
+    background: #f7f7f7 none repeat scroll 0 0;
+    box-shadow: 0 1px 0 #fff inset, 0 1px 0 rgba(0, 0, 0, 0.08);
+    color: #555;
+    vertical-align: top;
+}
+
+.litho_upload_button_multiple {
+    background-color: #f7f7f7;
+    border: 1px solid #ccc;
+    color: #555;
+    border-radius: 3px;
+    cursor: pointer;
+    display: inline-block;
+    font-size: 13px;
+    height: 28px;
+    line-height: 26px;
+    padding: 0 10px 3px;
+    text-decoration: none;
+    white-space: nowrap;
+    margin-right: 8px;
+}
+
+.form-wrap .form-field {
+    clear: both;
+    float: left;
+    width: 100%;
+}
+
+.form-wrap .form-field span.description,
+.form-table .form-field span.description {
+    display: block;
+    margin-top: 3px;
+}
+
+.litho_upload_button_multiple_category {
+    background-color: #f7f7f7;
+    border: 1px solid #ccc;
+    color: #555;
+    border-radius: 3px;
+    cursor: pointer;
+    display: inline-block;
+    font-size: 13px;
+    height: 28px;
+    line-height: 26px;
+    padding: 0 10px 3px;
+    text-decoration: none;
+    white-space: nowrap;
+    margin-top: 10px;
+    margin-right: 8px;
+}
+
+.litho_upload_button_multiple_category:hover {
+    background-color: #fafafa;
+    border-color: #999;
+    color: #23282d;
+}
+
+.litho_upload_button_category {
+    float: left;
+    clear: both;
+    border-radius: 3px;
+    border: 1px solid #ccc;
+    box-sizing: border-box;
+    cursor: pointer;
+    display: inline-block;
+    font-size: 13px;
+    height: 28px;
+    line-height: 26px;
+    margin: 0 10px 21px 0;
+    padding: 0 10px 1px;
+    text-decoration: none;
+    white-space: nowrap;
+    background: #f7f7f7 none repeat scroll 0 0;
+    box-shadow: 0 1px 0 #fff inset, 0 1px 0 rgba(0, 0, 0, 0.08);
+    color: #555;
+    vertical-align: top;
+}
+
+.litho_upload_button_category:hover,
+.litho_upload_button_category:focus {
+    background: #fafafa none repeat scroll 0 0;
+    border-color: #999;
+    color: #23282d;
+}
+
+.litho_upload_button_category:active {
+    background: #eee none repeat scroll 0 0;
+    border-color: #999;
+    box-shadow: 0 2px 5px -3px rgba(0, 0, 0, 0.5) inset;
+    color: #32373c;
+}
+
+.litho_remove_button_category {
+    float: left;
+    margin: 0 10px 21px 0;
+}
+
+#col-left .col-wrap .form-field select {
+    width: 95%;
+}
+
+#col-left .col-wrap .form-field .litho_upload_button_category {
+    height: 30px;
+}
+
+
+.litho_template_archive_style_box .right-part .select2-container--default .select2-search--inline .select2-search__field,
+.litho_template_archive_portfolio_style_box .right-part .select2-container--default .select2-search--inline .select2-search__field {
+    margin: 0;
+}
+
+@media screen and (max-width: 1400px) {
+    .left-part {
+        width: 40%;
+    }
+
+    .right-part {
+        width: 60%;
+    }
+
+    .right-part .upload_field,
+    input[type="text"],
+    .right-part select,
+    .litho_meta_box_tab_content .right-part input[type="text"] {
+        width: 85%;
+    }
+
+    .litho_template_archive_style_box .right-part .select2.select2-container,
+    .litho_template_archive_portfolio_style_box .right-part .select2.select2-container {
+        width: 85% !important;
+    }
+}
+
+@media screen and (max-width: 1124px) {
+    .litho_meta_box_tabs {
+        width: 50px;
+    }
+
+    .litho_meta_box_tabs li a {
+        height: 20px;
+        position: relative;
+    }
+
+    .litho_meta_box_tabs li a .group_title {
+        position: absolute;
+        display: none;
+        padding: 9px 12px 12px;
+        left: 50px;
+        top: -1px;
+        width: 200px;
+        background: #eeeeee;
+        border: 1px solid #ccc;
+        -webkit-box-shadow: 2px 2px 8px rgba(0, 0, 0, 0.2);
+        -moz-box-shadow: 2px 2px 8px rgba(0, 0, 0, 0.2);
+        box-shadow: 2px 2px 8px rgba(0, 0, 0, 0.2);
+        border-width: 1px 1px 1px 0px;
+        z-index: 3
+    }
+
+    .litho_meta_box_tabs li a:hover .group_title {
+        display: block
+    }
+
+    .left-part {
+        width: 40%;
+    }
+
+    .right-part {
+        width: 60%;
+    }
+}

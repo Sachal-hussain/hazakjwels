@@ -1,0 +1,15 @@
+<li>
+	<figure>
+		<a class="insta-link" href="{{data.link}}" target="_blank">
+			<img src="{{data.image}}" alt=""/>
+			<div class="insta-counts">
+				<# if ( data.show_likes == 'yes' ) { #>
+				<span><i class="ti-heart"></i><span class="count-number">{{data.likes}}</span></span>
+				<# } #>
+				<# if ( data.show_comments == 'yes' ) { #>
+				<span><i class="ti-comment"></i><span class="count-number">{{data.comments}}</span></span>
+				<# } #>
+			</div>
+		</a>
+	</figure>
+</li>

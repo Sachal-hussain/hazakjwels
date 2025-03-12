@@ -1,0 +1,18 @@
+<div class="scroll-to-next {{{ data.scroll_style_types }}}">
+	<a href="#{{{ data.scroll_target_id }}}" class="section-link{{{ data.enable_text_separator }}}">
+		<# if ( 'scroll-down-type-2' === data.scroll_style_types ) { #>
+			<# if ( '' !== data.scroll_text ) { #>
+				<div class="scroll-to-down-text">{{{ data.scroll_text }}}</div>
+			<# } #>
+		<# } else { #>
+			<# if ( 'yes' === data.scroll_custom_image ) { #>
+				<# if ( data.scroll_icon ) { #>
+					<div class="scroll-to-image">{{{ data.scroll_icon }}}</div>
+				<# } #>
+			<# } else { #>
+				{{{ data.scroll_icon }}}
+			<# } #>
+		<# } #>
+		<span class="elementor-screen-only">Scroll Down</span>
+	</a>
+</div>

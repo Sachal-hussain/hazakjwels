@@ -1,0 +1,637 @@
+<wpml-config>
+	<custom-types>
+		<custom-type translate="1">portfolio</custom-type>
+		<custom-type translate="1">sectionbuilder</custom-type>
+		<custom-type translate="1">litho-mega-menu</custom-type>
+	</custom-types>
+	<taxonomies>
+		<taxonomy translate="1">portfolio-category</taxonomy>
+		<taxonomy translate="1">portfolio-tags</taxonomy>
+	</taxonomies>
+	<admin-texts>
+		<key name="theme_mods_litho">
+			<key name="litho_author_box_button_title"/>
+			<key name="litho_related_posts_title"/>
+			<key name="litho_related_posts_subtitle"/>
+			<key name="litho_post_read_more_text_archive"/>
+			<key name="litho_post_read_more_text_default"/>
+			<key name="litho_button_text_sticky"/>
+			<key name="litho_single_portfolio_share_title"/>
+			<key name="litho_related_single_portfolio_title"/>
+			<key name="litho_related_single_portfolio_content"/>
+			<key name="litho_portfolio_navigation_nextlink_text"/>
+			<key name="litho_portfolio_navigation_priviouslink_text"/>
+			<key name="litho_single_product_share_title"/>
+			<key name="litho_page_not_found_main_title"/>
+			<key name="litho_page_not_found_title"/>
+			<key name="litho_page_not_found_subtitle"/>
+			<key name="litho_page_not_found_button_text"/>
+			<key name="litho_comment_title"/>
+			<key name="litho_gdpr_button_text"/>
+			<key name="litho_gdpr_text"/>
+			<key name="litho_side_icon_button_first_text"/>
+			<key name="litho_side_icon_second_button_text"/>
+			<key name="litho_related_post_button_text"/>
+		</key>
+	</admin-texts>
+	<custom-fields>
+	<!-- Litho Post Settings -->
+		<!-- Layout Setting -->
+		<custom-field action="copy" label="Layout setting">litho_post_layout_setting_single</custom-field>
+		<custom-field action="copy" label="Left sidebar">litho_post_left_sidebar_single</custom-field>
+		<custom-field action="copy" label="Right sidebar">litho_post_right_sidebar_single</custom-field>
+		<custom-field action="copy" label="Container style">litho_post_container_style_single</custom-field>
+		<custom-field action="copy" label="Full width padding">litho_post_container_fluid_with_padding_single</custom-field>
+		<custom-field action="copy" label="Box layout">litho_enable_box_layout_single</custom-field>
+		<!-- Header and Footer -->
+		<!-- Mini header Settings -->
+		<custom-field action="copy" label="Mini header">litho_enable_mini_header_single</custom-field>
+		<custom-field action="copy" label="Mini header section">litho_mini_header_section_single</custom-field>
+		<!-- Header Settings -->
+		<custom-field action="copy" label="Header">litho_enable_header_single</custom-field>
+		<custom-field action="copy" label="Header section">litho_header_section_single</custom-field>
+		<!-- Footer Settings -->
+		<custom-field action="copy" label="Footer">litho_enable_footer_single</custom-field>
+		<custom-field action="copy" label="Footer section">litho_footer_section_single</custom-field>
+		<!-- Page Title Settings -->
+		<custom-field action="copy" label="Title">litho_enable_custom_title_single</custom-field>
+		<custom-field action="copy" label="Title section">litho_custom_title_section_single</custom-field>
+		<custom-field action="copy" label="Select Color 1">litho_single_post_title_gradient_color_first_single</custom-field>
+		<custom-field action="copy" label="Select Color 2">litho_single_post_title_gradient_color_second_single</custom-field>
+		<custom-field action="copy" label="Select Color 3">litho_single_post_title_gradient_color_third_single</custom-field>
+		<custom-field action="copy" label="Select Color 4">litho_single_post_title_gradient_color_fourth_single</custom-field>
+		<custom-field action="copy" label="Select Color 5">litho_single_post_title_gradient_color_fifth_single</custom-field>
+		<custom-field action="translate" label="Subtitle">litho_single_post_title_subtitle_single</custom-field>
+		<custom-field action="copy" label="Background image">litho_single_post_title_bg_image_single_id</custom-field>
+		<custom-field action="copy" label="Background gallery images">litho_upload_button_multiple</custom-field>
+		<custom-field action="copy" label="Background gallery images">litho_single_post_title_bg_multiple_image_single</custom-field>
+		<custom-field action="translate" label="Next section ID">litho_single_post_title_callto_section_id_single</custom-field>
+		<custom-field action="translate" label="MP4">litho_single_post_title_video_mp4_single</custom-field>
+		<custom-field action="translate" label="OGG">litho_single_post_title_video_ogg_single</custom-field>
+		<custom-field action="translate" label="WEBM">litho_single_post_title_video_webm_single</custom-field>
+		<custom-field action="translate" label="External video url">litho_single_post_title_video_youtube_single</custom-field>
+		<custom-field action="copy" label="Parallax effects">litho_single_post_title_parallax_effect_single</custom-field>
+		<!-- Comments Settings -->
+		<custom-field action="copy" label="Comment">litho_enable_comment_single</custom-field>
+		<!-- Single Post Layout -->
+		<!-- Single post settings -->
+		<custom-field action="copy" label="Post layout style">litho_post_layout_style_single</custom-field>
+		<custom-field action="copy" label="Title">litho_enable_post_title_single</custom-field>
+		<custom-field action="copy" label="Category">litho_enable_category_single</custom-field>
+		<custom-field action="copy" label="Date">litho_enable_date_single</custom-field>
+		<custom-field action="copy" label="Date format">litho_post_date_format_single</custom-field>
+		<custom-field action="copy" label="Author">litho_enable_author_single</custom-field>
+		<custom-field action="copy" label="Tags">litho_enable_tags_single</custom-field>
+		<custom-field action="copy" label="Navigation link">litho_enable_navigation_link_single</custom-field>
+		<custom-field action="copy" label="Like">litho_enable_like_single</custom-field>
+		<custom-field action="copy" label="Share">litho_enable_share_single</custom-field>
+		<custom-field action="copy" label="Author box">litho_enable_post_author_box_single</custom-field>
+		<custom-field action="copy" label="Add top space of header height">litho_single_post_top_space_single</custom-field>
+		<!-- Related posts -->
+		<custom-field action="copy" label="Related posts">litho_enable_related_posts_single</custom-field>
+		<custom-field action="copy" label="No. of columns">litho_no_of_related_posts_columns_single</custom-field>
+		<custom-field action="translate" label="Title">litho_related_posts_title_single</custom-field>
+		<custom-field action="translate" label="Subtitle">litho_related_posts_subtitle_single</custom-field>
+		<custom-field action="copy" label="No. of posts">litho_no_of_related_posts_single</custom-field>
+		<custom-field action="copy" label="Post date">litho_related_posts_enable_date_single</custom-field>
+		<custom-field action="copy" label="Post date format">litho_related_posts_date_format_single</custom-field>
+		<custom-field action="copy" label="Post author">litho_related_posts_enable_author_single</custom-field>
+		<custom-field action="copy" label="Post excerpt">litho_related_post_excerpt_single</custom-field>
+		<custom-field action="copy" label="Excerpt length">litho_related_post_excerpt_length_single</custom-field>
+		<custom-field action="copy" label="Read more">litho_related_post_enable_button_single</custom-field>
+		<custom-field action="copy" label="Read more text">litho_related_post_button_text_single</custom-field>
+		<custom-field action="translate" label="Post category">litho_related_post_enable_category_single</custom-field>
+		<custom-field action="copy" label="Post comment">litho_related_post_enable_comment_single</custom-field>
+		<custom-field action="copy" label="Post like">litho_related_post_enable_like_single</custom-field>
+		<custom-field action="copy" label="Post separator">litho_related_posts_separator_single</custom-field>
+		<!-- Litho Post Format Settings -->
+		<custom-field action="copy" label="Post separator">litho_featured_image_single</custom-field>
+		<custom-field action="translate" label="Audio URL">litho_audio_single</custom-field>
+		<custom-field action="copy" label="List Type">litho_lightbox_image_single</custom-field>
+		<custom-field action="translate" label="Blockquote">litho_quote_single</custom-field>
+		<custom-field action="copy" label="Type">litho_video_type_single</custom-field>
+		<custom-field action="copy" label="Mute">litho_enable_mute_single</custom-field>
+		<custom-field action="translate" label="MP4">litho_video_mp4_single</custom-field>
+		<custom-field action="translate" label="OGG">litho_video_ogg_single</custom-field>
+		<custom-field action="translate" label="WEBM">litho_video_webm_single</custom-field>
+	<!-- Litho Page Settings -->
+		<!-- Layout Settings -->
+		<custom-field action="copy" label="Sidebar settings">litho_page_layout_setting_single</custom-field>
+		<custom-field action="copy" label="Left sidebar">litho_page_left_sidebar_single</custom-field>
+		<custom-field action="copy" label="Right sidebar">litho_page_right_sidebar_single</custom-field>
+		<custom-field action="copy" label="Container style">litho_page_container_style_single</custom-field>
+		<custom-field action="copy" label="Full width padding">litho_page_container_fluid_with_padding_single</custom-field>
+		<!-- Page Title Settings -->
+		<custom-field action="copy" label="Select Color 1">litho_page_title_gradient_color_first_single</custom-field>
+		<custom-field action="copy" label="Select Color 2">litho_page_title_gradient_color_second_single</custom-field>
+		<custom-field action="copy" label="Select Color 3">litho_page_title_gradient_color_third_single</custom-field>
+		<custom-field action="copy" label="Select Color 4">litho_page_title_gradient_color_fourth_single</custom-field>
+		<custom-field action="copy" label="Select Color 5">litho_page_title_gradient_color_fifth_single</custom-field>
+		<custom-field action="translate" label="Subtitle">litho_page_title_subtitle_single</custom-field>
+		<custom-field action="copy" label="Background image">litho_page_title_bg_image_single_id</custom-field>
+		<custom-field action="translate" label="MP4">litho_page_title_video_mp4_single</custom-field>
+		<custom-field action="translate" label="OGG">litho_page_title_video_ogg_single</custom-field>
+		<custom-field action="translate" label="WEBM">litho_page_title_video_webm_single</custom-field>
+		<custom-field action="translate" label="External video url">litho_page_title_video_youtube_single</custom-field>
+		<custom-field action="copy" label="Parallax effects">litho_page_title_parallax_effect_single</custom-field>
+		<!-- Comments Settings -->
+		<custom-field action="copy" label="Comments">litho_hide_page_comment_single</custom-field>
+	<!-- Litho Settings -->
+		<!-- Layout Settings -->
+		<custom-field action="copy" label="Sidebar settings">litho_portfolio_layout_setting_single</custom-field>
+		<custom-field action="copy" label="Left sidebar">litho_portfolio_left_sidebar_single</custom-field>
+		<custom-field action="copy" label="Right sidebar">litho_portfolio_right_sidebar_single</custom-field>
+		<custom-field action="copy" label="Container style">litho_portfolio_container_style_single</custom-field>
+		<custom-field action="copy" label="Full width padding">litho_portfolio_container_fluid_with_padding_single</custom-field>
+		<!-- Page Title Settings -->
+		<custom-field action="copy" label="Select Color 1">litho_single_portfolio_title_gradient_color_first_single</custom-field>
+		<custom-field action="copy" label="Select Color 2">litho_single_portfolio_title_gradient_color_second_single</custom-field>
+		<custom-field action="copy" label="Select Color 3">litho_single_portfolio_title_gradient_color_third_single</custom-field>
+		<custom-field action="copy" label="Select Color 4">litho_single_portfolio_title_gradient_color_fourth_single</custom-field>
+		<custom-field action="copy" label="Select Color 5">litho_single_portfolio_title_gradient_color_fifth_single</custom-field>
+		<custom-field action="translate" label="Subtitle">litho_single_portfolio_title_subtitle_single</custom-field>
+		<custom-field action="copy" label="Background image">litho_single_portfolio_title_bg_image_single_id</custom-field>
+		<custom-field action="translate" label="Next section ID">litho_single_portfolio_title_callto_section_id_single</custom-field>
+		<custom-field action="translate" label="MP4">litho_single_portfolio_title_video_mp4_single</custom-field>
+		<custom-field action="translate" label="OGG">litho_single_portfolio_title_video_ogg_single</custom-field>
+		<custom-field action="translate" label="WEBM">litho_single_portfolio_title_video_webm_single</custom-field>
+		<custom-field action="translate" label="External video url">litho_single_portfolio_title_video_youtube_single</custom-field>
+		<custom-field action="copy" label="Parallax effects">litho_single_portfolio_title_parallax_effect_single</custom-field>
+		<!-- Comments Settings -->
+		<custom-field action="copy" label="Comment">litho_hide_single_portfolio_comment_single</custom-field>
+		<!-- Single Layout -->
+		<!-- Single portfolio settings -->
+		<custom-field action="copy" label="Featured image">litho_portfolio_featured_image_single</custom-field>
+		<custom-field action="copy" label="Category">litho_portfolio_enable_category_single</custom-field>
+		<custom-field action="copy" label="Tags">litho_portfolio_enable_tag_single</custom-field>
+		<custom-field action="copy" label="Navigation link">litho_hide_navigation_single_portfolio_single</custom-field>
+		<custom-field action="copy" label="Share">litho_hide_single_portfolio_share_single</custom-field>
+		<custom-field action="translate" label="Share Heading">litho_single_portfolio_share_title_single</custom-field>
+		<custom-field action="copy" label="Colorful Style Hover Color">litho_single_portfolio_item_hover_color_single</custom-field>
+		<!-- Related portfolio -->
+		<custom-field action="copy" label="Related portfolio">litho_hide_related_single_portfolio_single</custom-field>
+		<custom-field action="copy" label="No. of columns">litho_no_of_related_single_portfolio_columns_single</custom-field>
+		<custom-field action="translate" label="Title">litho_related_single_portfolio_title_single</custom-field>
+		<custom-field action="translate" label="Content">litho_related_single_portfolio_content_single</custom-field>
+		<custom-field action="copy" label="No. of portfolio">litho_no_of_related_single_portfolio_single</custom-field>
+		<custom-field action="copy" label="Related portfolio display by">litho_related_single_portfolio_display_by_single</custom-field>
+		<custom-field action="copy" label="Related portfolio content text case">litho_related_single_portfolio_subtitle_text_transform_single</custom-field>
+		<!-- Litho Format Settings -->
+		<custom-field action="translate" label="Subtitle">litho_subtitle_single</custom-field>
+		<custom-field action="translate" label="External Link">litho_portfolio_external_link_single</custom-field>
+		<custom-field action="copy" label="Target">litho_portfolio_link_target_single</custom-field>
+		<!-- Litho Product Settings -->
+		<!-- Page Title -->
+		<custom-field action="copy" label="Select Color 1">litho_single_product_title_gradient_color_first_single</custom-field>
+		<custom-field action="copy" label="Select Color 2">litho_single_product_title_gradient_color_second_single</custom-field>
+		<custom-field action="copy" label="Select Color 3">litho_single_product_title_gradient_color_third_single</custom-field>
+		<custom-field action="copy" label="Select Color 4">litho_single_product_title_gradient_color_fourth_single</custom-field>
+		<custom-field action="copy" label="Select Color 5">litho_single_product_title_gradient_color_fifth_single</custom-field>
+		<custom-field action="translate" label="Subtitle">litho_single_product_title_subtitle_single</custom-field>
+		<custom-field action="copy" label="Background image">litho_single_product_title_bg_image_single_id</custom-field>
+		<custom-field action="translate" label="Next section ID">litho_single_product_title_callto_section_id_single</custom-field>
+		<custom-field action="translate" label="MP4">litho_single_product_title_video_mp4_single</custom-field>
+		<custom-field action="translate" label="OGG">litho_single_product_title_video_ogg_single</custom-field>
+		<custom-field action="translate" label="WEBM">litho_single_product_title_video_webm_single</custom-field>
+		<custom-field action="translate" label="External video url">litho_single_product_title_video_youtube_single</custom-field>
+		<custom-field action="copy" label="Parallax effects">litho_single_product_title_parallax_effect_single</custom-field>
+	<!-- Litho Section Builder Settings -->
+		<!-- General Settings -->
+		<custom-field action="copy" label="Type of Template">litho_section_builder_template</custom-field>
+		<custom-field action="copy" label="Header Style">litho_template_header_style</custom-field>
+		<custom-field action="copy" label="Sticky type">litho_mini_header_sticky_type</custom-field>
+		<custom-field action="copy" label="Sticky type">litho_footer_sticky_type</custom-field>
+		<custom-field action="copy" label="Select Archive">litho_template_archive_style</custom-field>
+		<custom-field action="copy" label="Select Archive Portfolio">litho_template_archive_portfolio_style</custom-field>
+		<!-- Mini Header Settings -->
+		<custom-field action="copy" label="Background color">litho_mini_header_mobile_menu_bg_color</custom-field>
+		<custom-field action="copy" label="Color">litho_mini_header_mobile_menu_color</custom-field>
+		<custom-field action="copy" label="Hover color">litho_mini_header_mobile_menu_hover_color</custom-field>
+		<!-- Promo Settings -->
+		<custom-field action="copy" label="Display popup after">litho_display_promo_popup_after</custom-field>
+		<custom-field action="copy" label="Delay time">litho_delay_time_promo_popup</custom-field>
+		<custom-field action="copy" label="Scroll pixels">litho_scroll_promo_popup</custom-field>
+		<custom-field action="copy" label="Re-open popup after (in days)">litho_promo_popup_cokkie_expire</custom-field>
+		<custom-field action="copy" label="Display in mobile">litho_enable_mobile_promo_popup</custom-field>
+	</custom-fields>
+	<elementor-widgets>
+		<widget name="litho-archive-portfolio">
+			<fields>
+				<field type="Pagination: Next" editor_type="LINE">litho_pagination_next_label</field>
+				<field type="Pagination: Previous" editor_type="LINE">litho_pagination_prev_label</field>
+				<field type="Button Label" editor_type="LINE">litho_pagination_load_more_button_label</field>
+			</fields>
+		</widget>
+		<widget name="litho-archive-posts">
+			<fields>
+				<field type="Post Author Text" editor_type="LINE">litho_show_post_author_text</field>
+				<field type="Read More Text" editor_type="LINE">litho_show_post_read_more_button_text</field>
+				<field type="Post Category Text" editor_type="LINE">litho_show_post_category_text</field>
+				<field type="Pagination: Next" editor_type="LINE">litho_pagination_next_label</field>
+				<field type="Pagination: Previous" editor_type="LINE">litho_pagination_prev_label</field>
+				<field type="Button Label" editor_type="LINE">litho_pagination_load_more_button_label</field>
+			</fields>
+		</widget>
+		<widget name="litho-blockquote">
+			<fields>
+				<field type="Content" editor_type="AREA">litho_blockquote_content</field>
+				<field type="Author Name" editor_type="LINE">litho_blockquote_author_name</field>
+			</fields>
+		</widget>
+		<widget name="litho-blog-list">
+			<fields>
+				<field type="Post Author Text" editor_type="LINE">litho_show_post_author_text</field>
+				<field type="Read More" editor_type="LINE">litho_show_post_read_more_button_text</field>
+				<field type="Post Category Text" editor_type="LINE">litho_show_post_category_text</field>
+				<field type="All Filter Label" editor_type="LINE">litho_show_all_label</field>
+				<field type="Pagination: Next" editor_type="LINE">litho_pagination_next_label</field>
+				<field type="Pagination: Previous" editor_type="LINE">litho_pagination_prev_label</field>
+				<field type="Button Label" editor_type="LINE">litho_pagination_load_more_button_label</field>
+			</fields>
+		</widget>
+		<widget name="litho-blog-post-slider">
+			<fields>
+				<field type="Number of posts to show" editor_type="LINE">litho_post_per_page</field>
+				<field type="Post Author Text" editor_type="LINE">litho_show_post_author_text</field>
+				<field type="Read More Text" editor_type="LINE">litho_post_read_more_button_text</field>
+			</fields>
+		</widget>
+		<widget name="litho-button">
+			<fields>
+				<field type="Button Text" editor_type="LINE">litho_text</field>
+				<field type="Button Link" editor_type="LINK" key_of="litho_link">url</field>
+				<field type="Button ID" editor_type="LINE">litho_button_css_id</field>
+			</fields>
+		</widget>
+		<widget name="litho-button-gradient">
+			<fields>
+				<field type="Button Text" editor_type="LINE">litho_text</field>
+				<field type="Button Link" editor_type="LINK" key_of="litho_link">url</field>
+				<field type="Button ID" editor_type="LINE">litho_button_css_id</field>
+			</fields>
+		</widget>
+		<widget name="litho-client-box">
+			<fields>
+				<field type="Link" editor_type="LINK" key_of="litho_link">url</field>
+			</fields>
+		</widget>
+		<widget name="litho-countdown">
+			<fields>
+				<field type="Day Label" editor_type="LINE">litho_countdown_day_label</field>
+				<field type="Hours Label" editor_type="LINE">litho_countdown_hours_label</field>
+				<field type="Minutes Label" editor_type="LINE">litho_countdown_minutes_label</field>
+				<field type="Seconds Label" editor_type="LINE">litho_countdown_seconds_label</field>
+			</fields>
+		</widget>
+		<widget name="litho-drop-cap">
+			<fields>
+				<field type="Description" editor_type="VISUAL">litho_editor</field>
+			</fields>
+		</widget>
+		<widget name="litho-flip-box">
+			<fields>
+				<field type="Title" editor_type="LINE">litho_flip_box_front_side_content_title</field>
+				<field type="Subtitle" editor_type="LINE">litho_flip_box_front_side_content_subtitle</field>
+				<field type="Description" editor_type="AREA">litho_flip_box_front_side_content_description_text</field>
+				<field type="Title" editor_type="LINE">litho_flip_box_back_side_content_title</field>
+				<field type="Subtitle" editor_type="LINE">litho_flip_box_back_side_content_subtitle</field>
+				<field type="Description" editor_type="AREA">litho_flip_box_back_side_content_description_text</field>
+				<field type="Button Text" editor_type="LINE">litho_flip_box_back_side_content_button_text</field>
+				<field type="Button Link" editor_type="LINK" key_of="litho_flip_box_back_side_content_button_link">url</field>
+			</fields>
+		</widget>
+		<widget name="litho-hamburger-menu">
+			<fields>
+				<field type="Toggle Icon Text" editor_type="LINE">litho_toggle_icon_text</field>
+			</fields>
+		</widget>
+		<widget name="litho-image-carousel">
+			<fields>
+				<field type="Image Carousel Link" editor_type="LINK" key_of="litho_link">url</field>
+			</fields>
+		</widget>
+		<widget name="litho-instagram">
+			<fields>
+				<field type="Title" editor_type="AREA">litho_button_title</field>
+				<field type="Title Link" editor_type="LINK" key_of="litho_button_title_link">url</field>
+			</fields>
+		</widget>
+		<widget name="litho-left-menu-toggle">
+			<fields>
+				<field type="Toggle Icon Text" editor_type="LINE">litho_toggle_icon_text</field>
+			</fields>
+		</widget>
+		<widget name="litho-mega-menu">
+			<fields>
+				<field type="Toggle Icon Text" editor_type="LINE">litho_toggle_icon_text</field>
+			</fields>
+		</widget>
+		<widget name="litho-page-title">
+			<fields>
+				<field type="Title" editor_type="LINE">litho_page_title_text</field>
+				<field type="Subtitle" editor_type="LINE">litho_page_subtitle</field>
+				<field type="Link ( MP4 )" editor_type="LINE">litho_page_title_video_mp4</field>
+				<field type="Link ( OGG )" editor_type="LINE">litho_page_title_video_ogg</field>
+				<field type="Link ( WEBM )" editor_type="LINE">litho_page_title_video_webm</field>
+				<field type="Link" editor_type="LINE">litho_page_title_video_youtube</field>
+				<field type="Next section ID" editor_type="LINE">litho_page_title_scroll_to_section_id</field>
+				<field type="Author Text" editor_type="LINE">litho_page_title_meta_author_text</field>
+			</fields>
+		</widget>
+		<widget name="litho-pie-chart">
+			<fields>
+				<field type="Title" editor_type="LINE">litho_pie_chart_title</field>
+				<field type="Content" editor_type="VISUAL">litho_pie_chart_content</field>
+			</fields>
+		</widget>
+		<widget name="litho-popup">
+			<fields>
+				<field type="Title" editor_type="LINE">litho_popup_title</field>
+				<field type="Content" editor_type="VISUAL">litho_popup_content</field>
+				<field type="Dismiss Text" editor_type="LINE">litho_popup_dismiss_text</field>
+				<field type="URL" editor_type="LINE">litho_video_link</field>
+				<field type="Prevent Label Text" editor_type="LINE">litho_prevent_label</field>
+				<field type="Button Text" editor_type="LINE">litho_button_text</field>
+			</fields>
+		</widget>
+		<widget name="litho-portfolio">
+			<fields>
+				<field type="Pagination: Next" editor_type="LINE">litho_pagination_next_label</field>
+				<field type="Pagination: Previous" editor_type="LINE">litho_pagination_prev_label</field>
+				<field type="Button Label" editor_type="LINE">litho_pagination_load_more_button_label</field>
+			</fields>
+		</widget>
+		<widget name="litho-portfolio-filter">
+			<fields>
+				<field type="All Filter Label" editor_type="LINE">litho_show_all_label</field>
+			</fields>
+		</widget>
+		<widget name="litho-price-table">
+			<fields>
+				<field type="Label" editor_type="LINE">litho_price_table_label</field>
+				<field type="Title" editor_type="LINE">litho_price_table_title</field>
+				<field type="Subtitle" editor_type="LINE">litho_price_table_subtitle</field>
+				<field type="Price" editor_type="LINE">litho_price_table_price</field>
+				<field type="Duration" editor_type="LINE">litho_price_table_duration</field>
+				<field type="Content" editor_type="VISUAL">litho_price_table_content</field>
+				<field type="Button Text" editor_type="LINE">litho_primary_button_text</field>
+				<field type="Button Link" editor_type="LINK" key_of="litho_primary_button_link">url</field>
+			</fields>
+		</widget>
+		<widget name="litho-progress">
+			<fields>
+				<field type="Inner Text" editor_type="LINE">litho_inner_text</field>
+			</fields>
+		</widget>
+		<widget name="litho-progress-step">
+			<fields>
+				<field type="Number" editor_type="LINE">litho_progress_step_number</field>
+				<field type="Title" editor_type="LINE">litho_progress_step_title</field>
+				<field type="Content" editor_type="VISUAL">litho_progress_step_content</field>
+			</fields>
+		</widget>
+		<widget name="litho-search-form">
+			<fields>
+				<field type="Form Label" editor_type="LINE">litho_search_form_label</field>
+				<field type="Placeholder Text" editor_type="LINE">litho_search_form_placeholder</field>
+				<field type="Button Text" editor_type="LINE">litho_search_form_buton_text</field>
+			</fields>
+		</widget>
+		<widget name="litho-simple-navigation">
+			<fields>
+				<field type="Title" editor_type="LINE">litho_title</field>
+			</fields>
+		</widget>
+		<widget name="litho-testimonial">
+			<fields>
+				<field type="Content" editor_type="AREA">litho_testimonial_content</field>
+				<field type="Name" editor_type="LINE">litho_testimonial_name</field>
+				<field type="Link" editor_type="LINK" key_of="litho_link">url</field>
+				<field type="Position" editor_type="LINE">litho_testimonial_job</field>
+			</fields>
+		</widget>
+		<widget name="litho-tilt-box">
+			<fields>
+				<field type="Author Text" editor_type="LINE">litho_author_text</field>
+				<field type="Letter Text" editor_type="LINE">litho_letter_text</field>
+				<field type="Title" editor_type="LINE">litho_tilt_box_title</field>
+				<field type="Description" editor_type="AREA">litho_description_text</field>
+				<field type="Overlap Title" editor_type="LINE">litho_tilt_box_overlap_title</field>
+			</fields>
+		</widget>
+		<widget name="litho-vertical-counter">
+			<fields>
+				<field type="Number Prefix" editor_type="LINE">litho_number_prefix</field>
+				<field type="Number Suffix" editor_type="LINE">litho_number_suffix</field>
+				<field type="Title( Strong )" editor_type="LINE">litho_strong_title</field>
+				<field type="Title" editor_type="LINE">litho_title</field>
+			</fields>
+		</widget>
+		<widget name="litho-video-button">
+			<fields>
+				<field type="Button Title" editor_type="LINE">litho_video_button_title</field>
+				<field type="URL" editor_type="LINE">litho_video_link</field>
+				<field type="Secondary Title" editor_type="LINE">litho_secondary_title</field>
+			</fields>
+		</widget>
+		<widget name="litho-menu-list-items">
+			<fields>
+				<field type="Title" editor_type="LINE">litho_menu_list_items_title</field>
+			</fields>
+		</widget>
+		<widget name="litho-text-rotator">
+			<fields>
+				<field type="Title" editor_type="LINE">litho_text_rotate_title</field>
+			</fields>
+			<fields-in-item items_of="litho_text_rotate_items">
+				<field type="Text" editor_type="LINE">litho_text_rotate_text</field>
+			</fields-in-item>
+		</widget>
+		<widget name="litho-testimonial-carousel">
+			<fields>
+				<field type="Heading" editor_type="LINE">litho_testimonial_carousel_heading</field>
+				<field type="Subheading" editor_type="LINE">litho_testimonial_carousel_subheading</field>
+				<field type="Content" editor_type="VISUAL">litho_testimonial_carousel_slide_content</field>
+				<field type="Prev Text" editor_type="LINE">litho_navigation_prev_text</field>
+				<field type="Next Text" editor_type="LINE">litho_navigation_next_text</field>
+			</fields>
+			<fields-in-item items_of="litho_testimonial_carousel">
+				<field type="Title" editor_type="LINE">litho_testimonial_carousel_title</field>
+				<field type="Content" editor_type="VISUAL">litho_testimonial_carousel_content</field>
+				<field type="First name" editor_type="LINE">litho_testimonial_carousel_name</field>
+				<field type="Last name" editor_type="LINE">litho_testimonial_carousel_lastname</field>
+				<field type="Position" editor_type="LINE">litho_testimonial_carousel_position</field>
+			</fields-in-item>
+		</widget>
+		<widget name="litho-lists">
+			<fields-in-item items_of="litho_icon_list">
+				<field type="Text" editor_type="LINE">litho_text</field>
+				<field type="Link" editor_type="LINK" key_of="litho_link">url</field>
+			</fields-in-item>
+		</widget>
+		<widget name="litho-feature-box-carousel">
+			<fields>
+				<field type="Heading" editor_type="LINE">litho_feature_box_carousel_heading</field>
+				<field type="Subheading" editor_type="LINE">litho_feature_box_carousel_subheading</field>
+			</fields>
+			<fields-in-item items_of="litho_feature_box_carousel">
+				<field type="Slide Content" editor_type="VISUAL">litho_feature_box_carousel_slide_content</field>
+				<field type="Digit/Subtitle" editor_type="LINE">litho_feature_box_carousel_digit</field>
+				<field type="Title" editor_type="LINE">litho_feature_box_carousel_title</field>
+				<field type="Content" editor_type="VISUAL">litho_feature_box_carousel_content</field>
+				<field type="Button Text" editor_type="LINE">litho_button_text</field>
+				<field type="Button Link" editor_type="LINK" key_of="litho_link">url</field>
+			</fields-in-item>
+		</widget>
+		<widget name="litho-team-member">
+			<fields>
+				<field type="Name" editor_type="LINE">litho_team_member_full_name</field>
+				<field type="Designation" editor_type="LINE">litho_team_member_position</field>
+				<field type="Description" editor_type="AREA">litho_team_member_description</field>
+			</fields>
+			<fields-in-item items_of="litho_team_member_social_icon_items">
+				<field type="Social Label" editor_type="LINE">litho_team_member_social_label</field>
+				<field type="Social Link" editor_type="LINK" key_of="litho_team_member_social_link">url</field>
+			</fields-in-item>
+		</widget>
+		<widget name="litho-accordion">
+			<fields-in-item items_of="litho_tabs">
+				<field type="Title" editor_type="LINE">litho_tab_title</field>
+				<field type="Description" editor_type="VISUAL">litho_tab_content</field>
+			</fields-in-item>
+			<fields-in-item items_of="litho_tabs_style4">
+				<field type="Panel Time" editor_type="LINE">litho_tab_panel_time</field>
+				<field type="Panel Title" editor_type="LINE">litho_tab_panel_title</field>
+				<field type="Speaker" editor_type="LINE">litho_tab_panel_speaker</field>
+				<field type="Description" editor_type="VISUAL">litho_tab_panel_content</field>
+			</fields-in-item>
+		</widget>
+		<widget name="litho-package-carousel">
+			<fields-in-item items_of="litho_package_carousel">
+				<field type="Caption" editor_type="LINE">litho_package_carousel_caption</field>
+				<field type="Title" editor_type="LINE">litho_package_carousel_title</field>
+				<field type="Title Link" editor_type="LINK" key_of="litho_package_carousel_title_link">url</field>
+				<field type="Subtitle" editor_type="LINE">litho_package_carousel_subtitle</field>
+				<field type="Content" editor_type="VISUAL">litho_package_carousel_content</field>
+				<field type="Review Text" editor_type="LINE">litho_package_carousel_review_text</field>
+			</fields-in-item>
+		</widget>
+		<widget name="litho-icon-box-carousel">
+			<fields-in-item items_of="litho_carousel_slider">
+				<field type="Title" editor_type="LINE">litho_title_text</field>
+				<field type="Description" editor_type="AREA">litho_description_text</field>
+				<field type="Link" editor_type="LINK" key_of="litho_link">url</field>
+			</fields-in-item>
+		</widget>
+		<widget name="litho-social-icons">
+			<fields-in-item items_of="litho_social_icon_list">
+				<field type="Custom Text" editor_type="LINE">litho_social_icon_custom_text</field>
+				<field type="Follow Text" editor_type="LINE">litho_social_icon_follow_text</field>
+				<field type="Link" editor_type="LINK" key_of="litho_link">url</field>
+			</fields-in-item>
+		</widget>
+		<widget name="litho-content-slider">
+			<fields-in-item items_of="litho_carousel_slider">
+				<field type="Digit" editor_type="LINE">litho_carousel_digit</field>
+				<field type="Title" editor_type="LINE">litho_carousel_title</field>
+				<field type="Subtitle" editor_type="LINE">litho_carousel_subtitle</field>
+				<field type="Description" editor_type="AREA">litho_carousel_description</field>
+				<field type="Button Text" editor_type="LINE">litho_carousel_button_text</field>
+				<field type="Button Link" editor_type="LINK" key_of="litho_link">url</field>
+			</fields-in-item>
+		</widget>
+		<widget name="litho-brand-logo-carousel">
+			<fields-in-item items_of="litho_carousel_slider">
+				<field type="Link" editor_type="LINK" key_of="litho_link">url</field>
+			</fields-in-item>
+		</widget>
+		<widget name="litho-icon-box">
+			<fields>
+				<field type="Title" editor_type="LINE">litho_title_text</field>
+				<field type="Description" editor_type="AREA">litho_description_text</field>
+				<field type="Link" editor_type="LINK">litho_link>url</field>
+				<field type="Button Text" editor_type="LINE">litho_primary_button_text</field>
+				<field type="Button Link" editor_type="LINK">litho_primary_button_link>url</field>
+			</fields>
+		</widget>
+		<widget name="litho-heading">
+			<fields>
+				<field type="Primary Title" editor_type="AREA">litho_title</field>
+				<field type="Primary Link" editor_type="LINK">litho_link>url</field>
+				<field type="Secondary Title" editor_type="AREA">litho_secondary_title</field>
+				<field type="Secondary Link" editor_type="LINK">litho_secondary_link>url</field>
+			</fields>
+		</widget>
+		<widget name="litho-fancy-text-box">
+			<fields>
+				<field type="Image Link" editor_type="LINK">litho_image_link>url</field>
+				<field type="Icon Link" editor_type="LINK">litho_icon_link>url</field>
+				<field type="Title" editor_type="LINE">litho_fancy_text_box_title</field>
+				<field type="Title Link" editor_type="LINK">litho_title_link>url</field>
+				<field type="Bold Title" editor_type="LINE">litho_fancy_text_box_strong_title</field>
+				<field type="Subtitle" editor_type="LINE">litho_fancy_text_box_subtitle</field>
+				<field type="Subtitle Link" editor_type="LINK">litho_subtitle_link>url</field>
+				<field type="Content" editor_type="VISUAL">litho_fancy_text_box_content</field>
+				<field type="Button Text" editor_type="LINE">litho_button_text</field>
+				<field type="Button Subtext" editor_type="LINE">litho_button_subtext</field>
+				<field type="Button Link" editor_type="LINK">litho_button_link>url</field>
+			</fields>
+		</widget>
+		<widget name="litho-feature-box">
+			<fields>
+				<field type="Title" editor_type="LINE">litho_feature_box_title</field>
+				<field type="Title Link" editor_type="LINK">litho_title_link>url</field>
+				<field type="Subtitle" editor_type="LINE">litho_feature_box_subtitle</field>
+				<field type="Subtitle Link" editor_type="LINK">litho_subtitle_link>url</field>
+				<field type="Content" editor_type="VISUAL">litho_feature_box_content</field>
+				<field type="Button Text" editor_type="LINE">litho_feature_box_button_text</field>
+				<field type="Button Link" editor_type="LINK">litho_link>url</field>
+			</fields>
+		</widget>
+		<widget name="litho-content-block">
+			<fields>
+				<field type="Title" editor_type="LINE">litho_content_block_title</field>
+				<field type="Title Link" editor_type="LINK">litho_content_block_title_link>url</field>
+				<field type="Label" editor_type="LINE">litho_content_block_label</field>
+				<field type="Subtitle" editor_type="LINE">litho_content_block_subtitle</field>
+				<field type="Content" editor_type="VISUAL">litho_content_block_content</field>
+				<field type="Button Text" editor_type="LINE">litho_primary_button_text</field>
+				<field type="Button Link" editor_type="LINK">litho_primary_button_link>url</field>
+			</fields>
+		</widget>
+		<widget name="litho-tabs">
+			<fields-in-item items_of="litho_tabs">
+				<field type="Title" editor_type="LINE">litho_tab_title</field>
+				<field type="Subtitle" editor_type="LINE">litho_tab_subtitle</field>
+				<field type="Content" editor_type="VISUAL">litho_item_content</field>
+			</fields-in-item>
+		</widget>
+		<widget name="litho-slider">
+			<fields-in-item items_of="litho_carousel_slider">
+				<field type="Title" editor_type="LINE">litho_carousel_title</field>
+				<field type="Link" editor_type="LINK" key_of="litho_link">url</field>
+				<field type="Subtitle" editor_type="LINE">litho_carousel_subtitle</field>
+				<field type="Button Text" editor_type="LINE">litho_button_text</field>
+				<field type="Link" editor_type="LINK" key_of="litho_button_link">url</field>
+				<field type="Second Button Text" editor_type="LINE">litho_second_button_text</field>
+				<field type="Link" editor_type="LINK" key_of="litho_second_button_link">url</field>
+			</fields-in-item>
+		</widget>
+		<widget name="litho-team-memeber-carousel">
+		  <fields-in-item items_of="litho_team_member_carousel">
+			<field type="Full Name" editor_type="LINE">litho_team_member_full_name</field>
+			<field type="Designation" editor_type="LINE">litho_team_member_position</field>
+			<field type="Facebook Label" editor_type="LINE">litho_team_member_social_facebook_label</field>
+			<field type="Link" editor_type="LINK" key_of="litho_team_member_social_facebook_link">url</field>
+			<field type="Instagram Label" editor_type="LINE">litho_team_member_social_instagram_label</field>
+			<field type="Link" editor_type="LINK" key_of="litho_team_member_social_instagram_link">url</field>
+			<field type="Twitter Label" editor_type="LINE">litho_team_member_social_twitter_label</field>
+			<field type="Link" editor_type="LINK" key_of="litho_team_member_social_twitter_link">url</field>
+			<field type="Pinterest Label" editor_type="LINE">litho_team_member_social_pinterest_label</field>
+			<field type="Link" editor_type="LINK" key_of="litho_team_member_social_pinterest_link">url</field>
+			<field type="Linkedin Label" editor_type="LINE">litho_team_member_social_linkedin_label</field>
+			<field type="LINK" editor_type="LINK" key_of="litho_team_member_social_linkedin_link">url</field>
+		  </fields-in-item>
+		</widget>
+	</elementor-widgets>
+</wpml-config>
